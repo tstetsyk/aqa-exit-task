@@ -1,0 +1,65 @@
+.container {
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-align: start;
+    font-family: 'Georgia';
+}
+
+.header {
+    border: 3px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+strong {
+    font-size: larger;
+    font-weight: bold;
+}
+
+input, select {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+label, input, select {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 96%;
+    padding: 10px;
+}
+
+input[type="radio"],
+label[for="male"],
+label[for="female"] {
+    margin-right: 5px;
+    display: inline;
+}
+
+.submit-button {
+    background-color: lightgray;
+    color: red;
+    padding: 10px 20px;
+    margin-left: 40%;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: line;
+    border-radius: 5px;
+    
+}
+
+.submit-button:hover {
+    background-color: lightgreen;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+}
