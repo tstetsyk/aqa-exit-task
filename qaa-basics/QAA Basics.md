@@ -127,7 +127,7 @@ Key aspects of BDD include:
 - **Specification by Example:** BDD often employs "Given-When-Then" language to structure scenarios. This format helps clarify the context (Given), the action (When), and the expected outcome (Then) for each scenario.
 - **Automation:** BDD scenarios are often automated using testing frameworks and tools. The natural language scenarios are translated into executable tests that can validate whether the software behaves as expected.
 - **Living Documentation:** BDD tests serve as living documentation for the software. They capture the intended behavior and serve as a reference for the team and stakeholders.
-- 
+
 The typical workflow in BDD includes the following steps:
 
 - **Requirement Gathering:** Collaboratively define user stories or requirements in plain language using Given-When-Then scenarios. These scenarios represent the expected behavior of the software.
