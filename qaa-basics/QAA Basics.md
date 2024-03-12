@@ -24,24 +24,29 @@ Some of the key benefits of automation testing include:
 Here are some key factors to consider when determining when it's a good time to automate a test:
 
 **1\. Test Repetition:** Automate tests that need to be executed frequently, such as regression tests, smoke tests. These tests are ideal candidates for automation because they need to be run regularly to ensure that existing functionality remains intact.
+
 **2\. Stable Features:** Automate tests for features or functionalities that are relatively stable and unlikely to change frequently.
+
 **3\. High-Risk Areas:** Automate tests in high-risk or critical areas of your application where defects can have a significant impact on users or the business.
+
 **4\. Test Data Variability:** Automate tests that require a wide range of input data, as automation can easily handle data-driven testing scenarios, allowing you to execute the same test with different data sets.
+
 **5\. Continuous Integration/Continuous Deployment (CI/CD):** Integrate automation into your CI/CD pipelines to ensure that automated tests are executed automatically with every code change. This enables early defect detection and faster feedback to development teams.
+
 **6\. Time-Consuming Tests:** Automate tests that are time-consuming when performed manually, such as performance testing, load testing, or tests that require running on multiple configurations or platforms.
 
 ## What tests should not be automated?
 
 Tests that involve human judgment, exploration, or subjective assessment are typically better suited for manual testing. Here are some examples of tests that are often not suitable for automation:
 
-**1\. Usability Testing:** Usability testing assesses the user-friendliness and user experience of a software application. These tests involve observing real users as they interact with the application, and the feedback often includes subjective opinions and qualitative insights that cannot be easily automated.
-**2\. Exploratory Testing:** Exploratory testing is a dynamic and unscripted approach where testers actively explore the software, adapt test cases on the fly, and rely on their creativity and domain knowledge to uncover defects. It is difficult to automate this type of testing because it thrives on spontaneous, human-driven actions and adaptability.
-**3\. Ad Hoc Testing:** Ad hoc testing involves unplanned and informal testing to identify defects without predefined test cases. It relies on the tester's intuition and experience and is not well-suited for automation because it does not follow scripted test scenarios.
-**4\. Accessibility Testing:** Assessing the accessibility of an application involves evaluating how it meets the needs of users with disabilities. These tests often require a human tester to assess the user experience and accessibility compliance, considering various user perspectives.
-**5\. Visual Testing:** Tests that involve comparing visual elements, such as layouts, fonts, colors, or graphical content, may be difficult to automate effectively because automated tools may struggle to interpret visual changes accurately.
-**6\. Initial Manual Testing:** When a new feature or application is introduced and there is limited documentation or knowledge about its behavior, manual testing is often the first approach to understand and explore its functionality.
-**7\. Low ROI Tests:** Some tests may not provide a significant return on investment (ROI) when automated. If a test is rarely executed, stable, and easily executed manually, it may not be worth the effort to automate it.
-**8\. Tests with Frequent Changes:** Tests for features that change frequently may not be suitable for automation due to the constant need for script maintenance, which can become time-consuming.
+**1\. Usability Testing:** Usability testing assesses the user-friendliness and user experience of a software application. These tests involve observing real users as they interact with the application, and the feedback often includes subjective opinions and qualitative insights that cannot be easily automated. 
+**2\. Exploratory Testing:** Exploratory testing is a dynamic and unscripted approach where testers actively explore the software, adapt test cases on the fly, and rely on their creativity and domain knowledge to uncover defects. It is difficult to automate this type of testing because it thrives on spontaneous, human-driven actions and adaptability. 
+**3\. Ad Hoc Testing:** Ad hoc testing involves unplanned and informal testing to identify defects without predefined test cases. It relies on the tester's intuition and experience and is not well-suited for automation because it does not follow scripted test scenarios. 
+**4\. Accessibility Testing:** Assessing the accessibility of an application involves evaluating how it meets the needs of users with disabilities. These tests often require a human tester to assess the user experience and accessibility compliance, considering various user perspectives. 
+**5\. Visual Testing:** Tests that involve comparing visual elements, such as layouts, fonts, colors, or graphical content, may be difficult to automate effectively because automated tools may struggle to interpret visual changes accurately. 
+**6\. Initial Manual Testing:** When a new feature or application is introduced and there is limited documentation or knowledge about its behavior, manual testing is often the first approach to understand and explore its functionality. 
+**7\. Low ROI Tests:** Some tests may not provide a significant return on investment (ROI) when automated. If a test is rarely executed, stable, and easily executed manually, it may not be worth the effort to automate it. 
+**8\. Tests with Frequent Changes:** Tests for features that change frequently may not be suitable for automation due to the constant need for script maintenance, which can become time-consuming. 
 
 ## Describe test pyramid.
 
@@ -168,11 +173,11 @@ The Page Object pattern is a design pattern used in test automation to enhance t
 
 Key principles and components of the Page Object pattern include:
 
-**1\. Abstraction of Web Pages:** Each web page in the application is represented as a separate class called a "Page Object." These classes encapsulate the page's structure and interactions with its elements.
-**2\. UI Element Locators:** Page Objects define locators for all the UI elements on the page, such as buttons, input fields, links, and dropdowns. These locators are used to identify and interact with elements.
-**3\. Methods for Interactions:** Page Objects contain methods that encapsulate interactions with the page elements. These methods typically include actions like clicking buttons, entering text, selecting options, and verifying page content.
-**4\. Business Logic:** Page Objects may also encapsulate business logic related to the page, such as handling user flows, validating input, and performing actions based on specific conditions.
-**5\. Test Code Separation:** Tests are written separately from the Page Objects, allowing for a clear separation of concerns. Test scripts use the Page Objects to interact with the UI, while the Page Objects handle the low-level details of element locators and interactions.
+**1\. Abstraction of Web Pages:** Each web page in the application is represented as a separate class called a "Page Object." These classes encapsulate the page's structure and interactions with its elements. 
+**2\. UI Element Locators:** Page Objects define locators for all the UI elements on the page, such as buttons, input fields, links, and dropdowns. These locators are used to identify and interact with elements. 
+**3\. Methods for Interactions:** Page Objects contain methods that encapsulate interactions with the page elements. These methods typically include actions like clicking buttons, entering text, selecting options, and verifying page content. 
+**4\. Business Logic:** Page Objects may also encapsulate business logic related to the page, such as handling user flows, validating input, and performing actions based on specific conditions. 
+**5\. Test Code Separation:** Tests are written separately from the Page Objects, allowing for a clear separation of concerns. Test scripts use the Page Objects to interact with the UI, while the Page Objects handle the low-level details of element locators and interactions. 
 
 Benefits of the Page Object pattern in test automation:
 
