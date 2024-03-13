@@ -1,14 +1,23 @@
 ## Puzzle 1
 There are three houses on each side of the road.
+
 These six houses are labeled as P, Q, R, S, T, and U.
+
 The houses are of different colors, namely, Red, Blue, Green, Orange, Yellow, and White.
+
 The houses are of different heights.
 
+
 T, the tallest house, is exactly opposite to the Red-colored house.
+
 The shortest house is exactly opposite to the Green colored house.
+
 U, the Orange colored house, is located between P and S.
+
 R, the Yellow-colored house, is exactly opposite to P.
+
 Q, the Green colored house, is exactly opposite to U.
+
 P, the white-colored house, is taller than R, but shorter than S and Q.
 
 What is the color of the tallest house and how many houses are taller than the house R?
@@ -16,14 +25,18 @@ What is the color of the tallest house and how many houses are taller than the h
 **Solution: The color of the tallest house is Blue. Four houses (P, Q, S, T) are taller than R.**
 
 ## Puzzle 2
-A rich man was murdered on Friday afternoon. The police was called for the investigation. Police identified five suspects.
-At the time of the murder, there was the butler, the cook, the maid, the gardener and the wife.
+A rich man was murdered on Friday afternoon. The police was called for the investigation. Police identified five suspects. 
+At the time of the murder, there was the butler, the cook, the maid, the gardener and the wife. 
 All suspects gave the explanations of what everyone was doing at the house during the day of the murder.
 
 Butler: I was fixing the table.
+
 Cook: I was cooking breakfast.
+
 Maid: I was washing the dishes.
+
 Gardener: I was planting flowers.
+
 Wife : I was watching TV.
 
 Without wasting the time, the police immediately arrested the killer. Who was the killer?
