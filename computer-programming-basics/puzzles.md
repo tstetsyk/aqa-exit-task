@@ -36,7 +36,7 @@ There is a rat which dies exactly after 10 hours of drinking the poisoned bottle
 You have a clock that measures time only in hours.  
 Suggest an optimal strategy to identify the poisoned bottle within 24 hours.  
 
-**Solution: At the beginning of the first hour feed the rat the 1st bottle. At the start of second hour, feed the 2nd one and similarly at the start of third hour feed the 3rd bottle. If the rat dies after exactly 10 hours, the 1st bottle is poisonous. If it dies after 11 hours 2nd one contains poison, else -- the 3rd one is poisonous.**
+**Solution: At the beginning of the first hour feed the rat the 1st bottle. At the start of second hour, feed the 2nd one and similarly at the start of third hour feed the 3rd bottle. If the rat dies after exactly 10 hours, the 1st bottle is poisonous. If it dies after 11 hours 2nd one contains poison, else - the 3rd one is poisonous.**
 
 ## Puzzle 4
 A person hosts a party and invites N guests to it.  
