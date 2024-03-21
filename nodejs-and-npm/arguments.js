@@ -1,0 +1,1 @@
+console.log(`Number or arguments: ${process.argv.length - 2}`)

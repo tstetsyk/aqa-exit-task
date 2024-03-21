@@ -1,0 +1,1 @@
+console.log(`ENV: ${process.env.ENV}, USER_KEY: ${process.env.USER_KEY}`)
