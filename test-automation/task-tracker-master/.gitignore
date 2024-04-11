@@ -1,0 +1,17 @@
+node_modules
+package-lock.json
+backend/is-ci*
+backend/mime*
+backend/nodemon*
+backend/nodetouch*
+backend/nopt*
+backend/rc*
+backend/semver*
+backend/package-lock.json
+
+backend/download_users.json
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.vscode/
